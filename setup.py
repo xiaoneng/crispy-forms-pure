@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='crispy-forms-foundation',
-    version=__import__('crispy_forms_foundation').__version__,
-    description=__import__('crispy_forms_foundation').__doc__,
+    name='crispy-forms-pure',
+    version=__import__('crispy_forms_pure').__version__,
+    description=__import__('crispy_forms_pure').__doc__,
     long_description=open('README.rst').read(),
-    author='David Thenon',
-    author_email='sveetch@gmail.com',
-    url='http://pypi.python.org/pypi/crispy-forms-foundation',
+    #author='David Thenon',
+    #author_email='sveetch@gmail.com',
+    #url='http://pypi.python.org/pypi/crispy-forms-pure',
     license='MIT',
     packages=find_packages(),
     classifiers=[
