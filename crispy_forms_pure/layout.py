@@ -78,7 +78,7 @@ class RowFluid(Row):
 
 class Column(Div):
     """
-    .. _Pure Grid: http://foundation.zurb.com/docs/components/grid.html
+    .. _Pure Grid: http://pure.zurb.com/docs/components/grid.html
 
     It wraps fields in a div. If not defined, CSS class will default to
     ``large-12 columns``. ``columns`` class is always appended, so you don't

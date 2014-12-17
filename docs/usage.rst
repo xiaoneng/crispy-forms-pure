@@ -1,18 +1,18 @@
 .. _django-crispy-forms: https://github.com/maraujop/django-crispy-forms
-.. _Foundation: http://github.com/zurb/foundation
-.. _Foundation Grid: http://foundation.zurb.com/docs/components/grid.html
-.. _crispy-forms-foundation-demo: https://github.com/sveetch/crispy-forms-foundation-demo
-.. _Abide: http://foundation.zurb.com/docs/components/abide.html
+.. _pure: http://github.com/zurb/foundation
+.. _pure Grid: http://foundation.zurb.com/docs/components/grid.html
+.. _crispy-forms-pure-demo: https://github.com/sveetch/crispy-forms-foundation-demo
+.. _Abide: http://pure.zurb.com/docs/components/abide.html
 
 =====
 Usage
 =====
 
-Import **crispy-forms-foundation** then you can use the layout objects in your form :
+Import **crispy-forms-pure** then you can use the layout objects in your form :
     
 .. sourcecode:: python
 
-    from crispy_forms_foundation.layout import Layout, Fieldset, Field, SplitDateTimeField, Row, RowFluid, Column, Div, ButtonHolder, Submit, HTML
+    from crispy_forms_pure.layout import Layout, Fieldset, Field, SplitDateTimeField, Row, RowFluid, Column, Div, ButtonHolder, Submit, HTML
 
     class YourForm(forms.ModelForm):
         """
@@ -51,20 +51,20 @@ Import **crispy-forms-foundation** then you can use the layout objects in your f
             
             super(YourForm, self).__init__(*args, **kwargs)
 
-The embedded templates are in ``crispy_forms_foundation/templates/foundation``.
+The embedded templates are in ``crispy_forms_pure/templates/foundation``.
 
 Layout items
 ************
 
-.. automodule:: crispy_forms_foundation.layout
+.. automodule:: crispy_forms_pure.layout
     :members:
 
-Use Foundation 5 Abide
+Use pure 5 Abide
 **********************
 
 You can use `Abide`_ validation in your form but note that there is no support within the layout objects. You will have to add the ``required`` attribute (and eventually its pattern) on your field widgets in your form.
 
-So to enable `Abide`_ you'll have to load its Javascript library if you don't load yet the whole Foundation library, then in your form helper you will have to its attribute on the form like this :
+So to enable `Abide`_ you'll have to load its Javascript library if you don't load yet the whole pure library, then in your form helper you will have to its attribute on the form like this :
 
 .. sourcecode:: python
 
@@ -97,7 +97,7 @@ You can also set an abide error message directly on the field like this :
 Automatic form layout
 *********************
 
-There is some forms you can use to quickly and automatically create a Foundation layout for your forms. This is mostly for fast integration or prototyping because it will probably never fit to your design.
+There is some forms you can use to quickly and automatically create a pure layout for your forms. This is mostly for fast integration or prototyping because it will probably never fit to your design.
 
-.. automodule:: crispy_forms_foundation.forms
+.. automodule:: crispy_forms_pure.forms
     :members:
