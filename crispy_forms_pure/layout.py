@@ -364,7 +364,7 @@ class Button(crispy_forms_layout.Button):
     .. note:: The first argument is also slugified and turned into the id for the button.
     """
     input_type = 'button'
-    field_classes = 'button'
+    field_classes = 'pure-button'
 
 
 class Submit(crispy_forms_layout.Submit):
@@ -378,7 +378,7 @@ class Submit(crispy_forms_layout.Submit):
     .. note:: The first argument is also slugified and turned into the id for the submit button.
     """
     input_type = 'submit'
-    field_classes = 'submit button'
+    field_classes = 'submit pure-button'
 
 
 class Hidden(crispy_forms_layout.Hidden):
@@ -400,4 +400,4 @@ class Reset(crispy_forms_layout.Reset):
     .. note:: The first argument is also slugified and turned into the id for the reset.
     """
     input_type = 'reset'
-    field_classes = 'reset button'
+    field_classes = 'reset pure-button'
