@@ -109,7 +109,7 @@ class Column(Div):
     def __init__(self, field, *args, **kwargs):
         self.field = field
         if 'css_class' not in kwargs:
-            kwargs['css_class'] = 'large-12'
+            kwargs['css_class'] = 'input-u-1'
 
         super(Column, self).__init__(field, *args, **kwargs)
 
