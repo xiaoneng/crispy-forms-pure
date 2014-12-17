@@ -378,7 +378,7 @@ class Submit(crispy_forms_layout.Submit):
     .. note:: The first argument is also slugified and turned into the id for the submit button.
     """
     input_type = 'submit'
-    field_classes = 'submit pure-button'
+    field_classes = 'submit submitButton' if TEMPLATE_PACK == 'uni_form' else 'pure-button btn-primary'
 
 
 class Hidden(crispy_forms_layout.Hidden):
