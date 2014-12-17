@@ -1,8 +1,5 @@
 .. _django-crispy-forms: https://github.com/maraujop/django-crispy-forms
-.. _pure: http://github.com/zurb/foundation
-.. _pure Grid: http://foundation.zurb.com/docs/components/grid.html
-.. _crispy-forms-pure-demo: https://github.com/sveetch/crispy-forms-foundation-demo
-.. _Abide: http://pure.zurb.com/docs/components/abide.html
+.. _pure: http://purecss.io
 
 =====
 Usage
@@ -51,7 +48,7 @@ Import **crispy-forms-pure** then you can use the layout objects in your form :
             
             super(YourForm, self).__init__(*args, **kwargs)
 
-The embedded templates are in ``crispy_forms_pure/templates/foundation``.
+The embedded templates are in ``crispy_forms_pure/templates/pure``.
 
 Layout items
 ************

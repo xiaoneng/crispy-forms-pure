@@ -1,9 +1,7 @@
 .. _docutils: http://docutils.sourceforge.net/
 .. _Django: https://www.djangoproject.com/
 .. _django-crispy-forms: https://github.com/maraujop/django-crispy-forms
-.. _pure: http://github.com/zurb/foundation
-.. _pure Grid: http://foundation.zurb.com/docs/grid.php
-.. _crispy-forms-pure-demo: https://github.com/sveetch/crispy-forms-foundation-demo
+.. _pure: http://purecss.io
 
 .. crispy-form-pure documentation master file, created by
    sphinx-quickstart on Sat Nov 15 20:21:48 2014.
