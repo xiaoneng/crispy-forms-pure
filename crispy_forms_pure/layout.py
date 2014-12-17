@@ -278,7 +278,7 @@ class InlineSwitchField(InlineField):
 
 class ButtonHolder(crispy_forms_layout.ButtonHolder):
     """
-    It wraps fields in a ``<div class="button-holder">``
+    It wraps fields in a ``<div class="pure-controls">``
 
     This is where you should put Layout objects that render to form buttons like Submit.
     It should only hold ``HTML`` and ``BaseInput`` inherited objects.
